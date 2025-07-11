@@ -13,8 +13,8 @@ const port = 3056
 app.use(cors({
   origin: [
     process.env.FRONTEND_URL || 'http://3.110.212.246:3056',
-    'http://3.110.212.246:9033',
-    'http://3.110.212.246:9034',
+    'http://3.110.212.246:8170',
+    'http://3.110.212.246:8171',
     'http://127.0.0.1:5500',
     'http://localhost:5500'
   ]
